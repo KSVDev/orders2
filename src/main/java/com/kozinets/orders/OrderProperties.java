@@ -1,4 +1,4 @@
-package com.kozinets.orders2;
+package com.kozinets.orders;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

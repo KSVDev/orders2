@@ -1,6 +1,5 @@
-package com.kozinets.orders2;
+package com.kozinets.orders;
 
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.stereotype.Component;
 
@@ -12,7 +11,7 @@ import java.io.InputStream;
 public class ExcelFirst {
     public ExcelFirst(){};
 
-    private static String filepath = "./src/Data/Order Omega ToJava.xlsx";
+    private static String filepath = "./src/data/Order Omega ToJava.xlsx";
     public static XSSFWorkbook readWorkbook() {
         try {
             String result = "";

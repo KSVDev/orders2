@@ -19,7 +19,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <start-class>com.kozinets.orders2.OrdersStarter</start-class>
+    <start-class>com.kozinets.orders.OrdersStarter</start-class>
   </properties>
 
   <dependencies>
@@ -104,17 +104,15 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
           <configuration>
-              <mainClass>com.kozinets.orders2.OrdersStarter</mainClass>
+              <mainClass>com.kozinets.orders.OrdersStarter</mainClass>
+              <excludeDevtools>false</excludeDevtools>
           </configuration>
         <executions>
           <execution>
             <id>repackage</id>
-            <goals>
-              <goal>repackage</goal>
-            </goals>
             <configuration>
               <classifier>exec</classifier>
-              <mainClass>com.kozinets.orders2.OrdersStarter</mainClass>
+              <mainClass>com.kozinets.orders.OrdersStarter</mainClass>
             </configuration>
           </execution>
         </executions>

@@ -1,4 +1,4 @@
-package com.kozinets.orders2;
+package com.kozinets.orders;
 
 import org.springframework.data.repository.CrudRepository;
 
